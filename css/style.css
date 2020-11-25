@@ -16,6 +16,10 @@ a, a:link {
   padding: 7px;
 }
 
+.color-white {
+  color: #fff;
+}
+
 
 /* FINECOMMON STYLE AND UTILITY */
 
@@ -26,7 +30,6 @@ nav {
 }
 
 .logo {
-  vertical-align: middle;
   line-height: 75px;
 }
 
@@ -36,6 +39,7 @@ nav {
 
 nav ul {
   line-height: 75px;
+  margin-bottom: 0;
 }
 
 nav ul li {
@@ -44,10 +48,6 @@ nav ul li {
   font-size: 17px;
   font-weight: 500;
   padding: 0 6px;
-
-}
-
-nav ul li a {
 
 }
 
@@ -66,18 +66,47 @@ nav ul li i{
 }
 
 
-
-
-
-
-
-
-
-
 .bl-jumbotron {
-  background: red;
-  height: 300px;
+  padding: 30px 0;
+  background: url('../img/bg-home.jpg') no-repeat center center;
+  background-size: cover;
 }
+
+.text-jumbotron-box h1 {
+  font-size: 28px;
+}
+
+.text-jumbotron-box p {
+  color: #ccc;
+  font-size: 17px;
+}
+
+.started-box {
+  background: #fff;
+  padding: 10px 10px;
+  border-radius: 6px;
+}
+
+.started-box h2 {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.started-box span {
+  color: #006AFF;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 0;
+}
+
+input {
+  padding-bottom: 10px;
+}
+
+input[type="text"] {
+  width: 100%;
+}
+
 
 
 
