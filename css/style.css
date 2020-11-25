@@ -1,10 +1,20 @@
 /* COMMON STYLE AND UTILITY */
+body {
+  font-family: 'Roboto', sans-serif;
+}
 
+a, a:link {
+  color: inherit;
+  text-decoration: none;
+}
 
-
-
-
-
+.bl-button {
+  border: 1px solid #006AFF;
+  color: #006AFF!important;
+  background: #fff;
+  border-radius: 5px;
+  padding: 7px;
+}
 
 
 /* FINECOMMON STYLE AND UTILITY */
@@ -12,11 +22,47 @@
 /* stili header */
 
 nav {
-  background: red;
+  height: 75px;
+}
+
+.logo {
+  vertical-align: middle;
+  line-height: 75px;
+}
+
+.logo img{
+  height: 25px;
+}
+
+nav ul {
+  line-height: 75px;
 }
 
 nav ul li {
   display: inline-block;
+  color: hsl(221,93%,16%);
+  font-size: 17px;
+  font-weight: 500;
+  padding: 0 6px;
+
+}
+
+nav ul li a {
+
+}
+
+nav ul li:hover {
+  color: #006AFF;
+}
+
+nav ul li i{
+  padding-left: 3px;
+}
+
+.hamburger-menu {
+  color: #006AFF;
+  font-size: 22px;
+  line-height: 75px;
 }
 
 
@@ -24,4 +70,55 @@ nav ul li {
 
 
 
+
+
+
+
+.bl-jumbotron {
+  background: red;
+  height: 300px;
+}
+
+
+
 /* fine stili header */
+
+
+
+
+
+
+/* stili screen SM */
+
+@media screen and (min-width:768px) {
+
+  /* stili header */
+
+
+
+
+
+}
+
+
+
+
+
+/* fine stili screen SM */
+
+
+
+/* stili sceen MD */
+
+@media screen and (min-width:992px) {
+
+
+
+
+
+}
+
+
+
+
+/* fine stili sceen MD */
