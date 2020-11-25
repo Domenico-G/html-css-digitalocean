@@ -8,6 +8,10 @@ a, a:link {
   text-decoration: none;
 }
 
+.bg-gray {
+  background: #F3F5F9;
+}
+
 .bl-button {
   border: 1px solid #006AFF;
   color: #006AFF!important;
@@ -148,6 +152,36 @@ nav ul li i{
   text-decoration: underline;
 }
 
+.bl-row-customers {
+  height: 100px;
+}
+
+.customer-header {
+  padding: 0 0 40px 0;
+}
+
+.customer-header h3 {
+  padding: 20px 0;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #6F7B97;
+}
+
+.customer-header img {
+  width: 100%;
+}
+
+.box-img-customers {
+  padding: 15px;
+  line-height: 100px;
+}
+
+.customer-header  a {
+  color: #006AFF;
+  font-size: 16px;
+  font-weight: 500;
+}
+
 /* fine stili header */
 
 
@@ -160,6 +194,10 @@ nav ul li i{
 @media screen and (min-width:768px) {
 
   /* stili header */
+
+  .box-img-customers {
+    padding: 0px;
+  }
 
 
 
