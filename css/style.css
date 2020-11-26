@@ -198,7 +198,7 @@ nav ul li i{
 
 /* fine stili header --------------------------------------------------------*/
 
-/* stili main --------------------------------------------------------------*/
+/* stili main ---------------------------------------------------------------*/
 
 /* stili sezione deploy */
 .bl-deploy-container {
@@ -460,8 +460,8 @@ nav ul li i{
 
 /* fine stili create account banner */
 
-/* fine stili main ------------------------------------------------------*/
-/* stili footer --------------------------------------------*/
+/* fine stili main ----------------------------------------------------------*/
+/* stili footer -------------------------------------------------------------*/
 
 footer {
   background: #031C4E;
@@ -507,8 +507,7 @@ footer h4 {
   font-size: 15px;
 }
 
-
-/* fine stili footer --------------------------------------------*/
+/* fine stili footer --------------------------------------------------------*/
 
 /* stili screen SM */
 
@@ -535,10 +534,9 @@ footer h4 {
     cursor: pointer;
   }
 
-    /* fineclassi utility */
+  /* fine classi utility */
 
   /* stili header */
-
 
   .bl-row-customers img {
     width: 110px;
