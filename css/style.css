@@ -69,6 +69,7 @@ nav ul li i{
   line-height: 75px;
 }
 
+/*stili jumbotron */
 
 .bl-jumbotron {
   padding: 40px 0;
@@ -77,12 +78,12 @@ nav ul li i{
 }
 
 .text-jumbotron-box h1 {
-  font-size: 28px;
+  font-size: 40px;
 }
 
 .text-jumbotron-box p {
   color: #ccc;
-  font-size: 17px;
+  font-size: 22px;
 }
 
 .started-box {
@@ -107,9 +108,10 @@ nav ul li i{
   border: 1px solid rgba(0,0,0,0.08);
   border-radius: 3px;
   margin: 5px 0;
-  padding: 6px 3px;
+  padding: 8px 3px;
   width: 100%;
 }
+
 
 .started-form button {
   font-size: 13px;
@@ -118,14 +120,14 @@ nav ul li i{
   color: #fff;
   border: 0;
   border-radius: 5px;
-  padding: 4px 0;
+  padding: 5px 0;
 
 }
 
 .google-button {
   margin: 5px 0;
   border-radius: 3px;
-  padding: 4px 0;
+  padding: 5px 0;
   box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.28);
 }
 
@@ -152,28 +154,25 @@ nav ul li i{
   text-decoration: underline;
 }
 
-.bl-row-customers {
-  height: 100px;
-}
+/* fine stili jumbotron */
+
+/* stili sezione customers */
 
 .customer-header {
-  padding: 0 0 40px 0;
+  padding: 20px 0;
 }
 
 .customer-header h3 {
-  padding: 20px 0;
   font-size: 15px;
   text-transform: uppercase;
   color: #6F7B97;
 }
 
-.customer-header img {
-  width: 100%;
-}
-
-.box-img-customers {
-  padding: 15px;
-  line-height: 100px;
+.bl-row-customers img {
+  padding: 5px;
+  margin: 10px 0;
+  width: 180px;
+  vertical-align: middle;
 }
 
 .customer-header  a {
@@ -182,12 +181,81 @@ nav ul li i{
   font-weight: 500;
 }
 
-/* fine stili header */
+/* fine stili sezione customers */
+
+/* fine stili header --------------------------------------------------------*/
+
+/* stili main --------------------------------------------------------------*/
+
+/* stili sezione deploy */
+.bl-deploy-container {
+  padding-bottom: 50px;
+}
+
+.deploy-text {
+  padding: 40px 0;;
+}
+
+.deploy-text h2{
+  font-size: 35px;
+  font-weight: 600;
+  color: hsl(221,93%,16%);
+}
+
+.deploy-text p {
+  color: #5C6A88;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.deploy-list {
+  list-style: none;
+  font-size: 20px;
+  padding: 10px 0;
+}
+
+.deploy-list {
+  color: #5C6A88;
+  list-style: none;
+  font-size: 20px;
+  padding: 0px 0;
+}
+
+.deploy-list li {
+  list-style: none;
+  font-size: 20px;
+  padding: 10px;
+  border-left: 2px solid #ccc;
+}
+
+.deploy-box img{
+  height: 40px;
+  width: 40px;
+}
+
+.deploy-box h3{
+  color: hsl(221,93%,16%);
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.deploy-box p{
+  color: #5C6A88;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* fine stili sezione deploy */
+
+/* stili designed developers */
 
 
 
 
+/* fine stili designed developers */
 
+
+/* fine stili main */
 
 /* stili screen SM */
 
@@ -195,13 +263,23 @@ nav ul li i{
 
   /* stili header */
 
-  .box-img-customers {
-    padding: 0px;
+
+  .bl-row-customers img {
+    width: 110px;
+    padding: 5px;
   }
 
+  /* fine stili header */
 
+  /* stili main */
 
+  .deploy-box {
+    min-height: 220px;
+  }
 
+  .deploy-list {
+    margin-left: 60px;
+  }
 
 }
 
@@ -221,13 +299,20 @@ nav ul li i{
     font-size: 20px;
   }
 
+  .bl-row-customers img {
+    width: 150px;
+    padding: 5px;
+  }
 
+  /* finev stili header */
 
+  /* stili main */
+
+  .deploy-box p {
+    padding-right: 20px;
+  }
 
 
 }
-
-
-
 
 /* fine stili sceen MD */
