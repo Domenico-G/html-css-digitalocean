@@ -24,6 +24,19 @@ a, a:link {
   color: #fff;
 }
 
+.bl-cirlce-img div{
+  height: 10px;
+  width: 10px;
+  border: 1.5px solid #006AFF;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.bl-cirlce-img div:hover {
+  background: #006AFF;
+  cursor: pointer;
+}
+
 
 /* FINECOMMON STYLE AND UTILITY */
 
@@ -48,7 +61,7 @@ nav ul {
 
 nav ul li {
   display: inline-block;
-  color: hsl(221,93%,16%);
+  color: #031C4E;
   font-size: 17px;
   font-weight: 500;
   padding: 0 6px;
@@ -199,7 +212,7 @@ nav ul li i{
 .deploy-text h2{
   font-size: 35px;
   font-weight: 600;
-  color: hsl(221,93%,16%);
+  color: #031C4E;
 }
 
 .deploy-text p {
@@ -234,7 +247,7 @@ nav ul li i{
 }
 
 .deploy-box h3{
-  color: hsl(221,93%,16%);
+  color: #031C4E;
   font-size: 20px;
   font-weight: 500;
 }
@@ -256,7 +269,7 @@ nav ul li i{
 .content-designed h2 {
   font-size: 35px;
   font-weight: 600;
-  color: hsl(221,93%,16%);
+  color: #031C4E;
 }
 
 .content-designed p {
@@ -268,27 +281,13 @@ nav ul li i{
 
 .content-designed .text-img {
   padding: 20px 0;
-  color: hsl(221,93%,16%);
+  color: #031C4E;
   font-size: 16px;
   font-weight: 500;
 }
 
 .content-designed img {
   width: 300px;
-}
-
-
-.bl-cirlce-img div{
-  height: 10px;
-  width: 10px;
-  border: 1.5px solid #006AFF;
-  border-radius: 50%;
-  display: inline-block;
-}
-
-.bl-cirlce-img div:hover {
-  background: #006AFF;
-  cursor: pointer;
 }
 
 /* fine stili designed developers */
@@ -303,7 +302,7 @@ nav ul li i{
   padding-bottom: 20px;
   font-size: 35px;
   font-weight: 600;
-  color: hsl(221,93%,16%);
+  color: #031C4E;
   text-align: center;
 }
 
@@ -345,8 +344,8 @@ nav ul li i{
 }
 
 .bl-regions-container h2 {
-  font-size: 35px;
-  font-weight: 700;
+  font-size: 32px;
+  font-weight: 600;
   text-align: center;
 }
 
@@ -357,6 +356,11 @@ nav ul li i{
 
 .box-region div {
   display: inline-block;
+}
+
+.box-region:nth-child(6), .box-region:nth-child(12) {
+  margin-bottom: 30px;
+  border-bottom: 0px;
 }
 
 .name-region {
@@ -373,11 +377,165 @@ nav ul li i{
 
 /* fine stili regions */
 
+/* stili rockerbox */
+
+.bl-rockerbox-container {
+  padding: 50px 0;
+}
+
+.bl-rockerbox-container h2 {
+  font-size: 35px;
+  font-weight: 600;
+  color: #031C4E;
+  padding-bottom: 60px;
+}
+
+.bl-rockerbox {
+  background: #fff;
+  vertical-align: middle;
+  max-width: 310px;
+  margin: 0 auto;
+  display: inline-block;
+  padding: 50px 0;
+  border-radius: 5px;
+}
+
+.bl-rockerbox img {
+  width: 100%
+}
+
+.bl-rockerbox p {
+  margin: 20px 0;
+  color: #5C6A88;
+  font-size: 23px;
+  font-weight: 500;
+  line-height: 1.6;
+}
+
+.bl-rockerbox h5 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.bl-rockerbox h6 {
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+
+.bl-rockerbox a {
+  color: #006AFF;
+  font-size: 16px;
+  font-weight: 500;
+
+}
+
+.bl-rockerbox-container .bl-cirlce-img {
+  padding: 20px 0;
+}
+
+/* fine stili rockerbox */
+
+
+/* stili create account banner */
+
+.account-banner {
+  padding: 50px 0;
+  background: #002CA7;
+}
+
+.banner-text h2{
+  font-size: 35px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+.button-account {
+  color: #006AFF;
+  background: #fff;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+/* fine stili create account banner */
+
 /* fine stili main ------------------------------------------------------*/
+/* stili footer --------------------------------------------*/
+
+footer {
+  background: #031C4E;
+  padding: 50px 0;
+}
+
+.copy {
+  font-size: 17px;
+  font-weight: 600;
+  color: #8B94A9;
+}
+
+footer h6 {
+  font-size: 17px;
+  font-weight: 500;
+  color: #5C6A88;
+}
+
+.social {
+  padding: 0;
+}
+
+.social li {
+  display: inline-block;
+  color: #8B94A9;
+  font-size: 22px;
+  padding-right: 5px;
+
+}
+
+footer h4 {
+ color: #fff;
+ font-weight: 600;
+}
+
+.footer-list {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-list li{
+  color: #A6ADBD;
+  font-size: 15px;
+}
+
+
+/* fine stili footer --------------------------------------------*/
 
 /* stili screen SM */
 
 @media screen and (min-width:768px) {
+  /* classi utility */
+
+  .before::before {
+    display: inline-block;
+    content: "\f104";
+    color: #031C4E;
+    font-family: FontAwesome;
+    font-size: 60px;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+
+  .after::after {
+    display: inline-block;
+    content: "\f105";
+    color: #031C4E;
+    font-family: FontAwesome;
+    font-size: 60px;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+
+    /* fineclassi utility */
 
   /* stili header */
 
@@ -404,28 +562,25 @@ nav ul li i{
 
   }
 
-  .content-designed .img-designed::before {
-    display: inline-block;
-    content: "\f104";
-    color: hsl(221,93%,16%);
-    font-family: FontAwesome;
-    font-size: 60px;
-    margin: 0 10px;
-    cursor: pointer;
-  }
-
-  .content-designed .img-designed::after {
-    display: inline-block;
-    content: "\f105";
-    color: hsl(221,93%,16%);
-    font-family: FontAwesome;
-    font-size: 60px;
-    margin: 0 10px;
-    cursor: pointer;
-  }
-
   .code-regin {
     padding-right: 60px;
+  }
+
+  .bl-rockerbox {
+    max-width: 400px;
+  }
+
+  .bl-rockerbox img {
+    max-width: 100%;
+    width: 310px;
+  }
+
+  .banner-text h2{
+    font-size: 45px;
+  }
+
+  .button-account {
+    font-size: 22px;
   }
 
 }
@@ -463,6 +618,9 @@ nav ul li i{
     width: 600px;
   }
 
+  .bl-rockerbox {
+    max-width: 600px;
+  }
 
 }
 
