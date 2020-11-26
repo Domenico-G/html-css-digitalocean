@@ -27,7 +27,7 @@ a, a:link {
 
 /* FINECOMMON STYLE AND UTILITY */
 
-/* stili header */
+/* stili header -------------------------------------------------------------*/
 
 nav {
   height: 75px;
@@ -249,13 +249,92 @@ nav ul li i{
 
 /* stili designed developers */
 
+.bl-designed-container {
+  padding: 50px 0;
+}
+
+.content-designed h2 {
+  font-size: 35px;
+  font-weight: 600;
+  color: hsl(221,93%,16%);
+}
+
+.content-designed p {
+  color: #5C6A88;
+  font-size: 22px;
+  font-weight: 400;
+  padding-bottom: 50px;
+}
+
+.content-designed .text-img {
+  padding: 20px 0;
+  color: hsl(221,93%,16%);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.content-designed img {
+  width: 300px;
+}
 
 
+.bl-cirlce-img div{
+  height: 10px;
+  width: 10px;
+  border: 1.5px solid #006AFF;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.bl-cirlce-img div:hover {
+  background: #006AFF;
+  cursor: pointer;
+}
 
 /* fine stili designed developers */
 
+/* stili features business */
 
-/* fine stili main */
+.bl-features-container {
+  padding: 50px 0;
+}
+
+.bl-features-container h2 {
+  padding-bottom: 20px;
+  font-size: 35px;
+  font-weight: 600;
+  color: hsl(221,93%,16%);
+  text-align: center;
+}
+
+.box-features {
+  padding-bottom: 30px;
+}
+
+.box-features img {
+  height: 50px;
+}
+
+.box-features h3 {
+  color: hsl(221,93%,16%);
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.box-features p{
+  color: #5C6A88;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.box-features a {
+  color: #006AFF;
+  font-size: 16px;
+  font-weight: 500;
+
+}
+
+/* fine stili main ------------------------------------------------------*/
 
 /* stili screen SM */
 
@@ -279,6 +358,31 @@ nav ul li i{
 
   .deploy-list {
     margin-left: 60px;
+  }
+
+  .content-designed img {
+    width: 400px;
+
+  }
+
+  .content-designed .img-designed::before {
+    display: inline-block;
+    content: "\f104";
+    color: hsl(221,93%,16%);
+    font-family: FontAwesome;
+    font-size: 60px;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+
+  .content-designed .img-designed::after {
+    display: inline-block;
+    content: "\f105";
+    color: hsl(221,93%,16%);
+    font-family: FontAwesome;
+    font-size: 60px;
+    margin: 0 10px;
+    cursor: pointer;
   }
 
 }
@@ -310,6 +414,10 @@ nav ul li i{
 
   .deploy-box p {
     padding-right: 20px;
+  }
+
+  .content-designed img {
+    width: 600px;
   }
 
 
