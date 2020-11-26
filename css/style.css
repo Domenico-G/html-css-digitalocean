@@ -334,6 +334,45 @@ nav ul li i{
 
 }
 
+/* fine stili features business */
+
+/* stili regions */
+
+.bl-regions-container {
+  padding: 50px 0;
+  background: #0044C3;
+  color: #fff;
+}
+
+.bl-regions-container h2 {
+  font-size: 35px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.box-region {
+  border-bottom: 1px solid #fff;
+  padding: 10px;
+}
+
+.box-region div {
+  display: inline-block;
+}
+
+.name-region {
+  color: #ccc;
+}
+
+.code-regin {
+  padding-right: 30px;
+}
+
+.button-test {
+  color: #00C2CE;
+}
+
+/* fine stili regions */
+
 /* fine stili main ------------------------------------------------------*/
 
 /* stili screen SM */
@@ -383,6 +422,10 @@ nav ul li i{
     font-size: 60px;
     margin: 0 10px;
     cursor: pointer;
+  }
+
+  .code-regin {
+    padding-right: 60px;
   }
 
 }
