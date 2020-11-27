@@ -40,7 +40,7 @@
               </ul>
             </div>
             <div class="hamburger-menu pull-right visible-xs visible-sm">
-              <i class="fas fa-bars"></i>
+              <a href="#"><i class="fas fa-bars"></i></a>
             </div>
           </div>
         </div>
@@ -58,8 +58,8 @@
             </div>
             <div class="col-xs-12 col-sm-5">
               <div class="started-box text-center">
-                <h2>Deploy your app in seconds.</h2>
-                <span>Get started now.</span>
+                <h3>Deploy your app in seconds.</h3>
+                <h5>Get started now.</h5>
                 <form class="started-form">
                   <input type="text" name="email" placeholder="Email">
                   <input type="text" name="password" placeholder="Password">
@@ -79,7 +79,7 @@
       </div>
       <!-- fine sezione jumbotron -->
       <!-- sezione customers bottom header -->
-      <div class="customer-header bg-gray">
+      <div class="bl-customer-header bg-gray">
         <div class="container text-center">
           <div class="bl-row-customers">
             <h3>Innovative businesses trust digitalocean</h3>
@@ -89,7 +89,7 @@
             <img src="img/customers/hashicorp.png" alt="">
             <img src="img/customers/hashicorp.png" alt="">
             <img src="img/customers/splunk.webp" alt="">
-            <p><a href="#">View customers stories ></a></p>
+            <div class="link-stories"><a href="#">View customers stories ></a></div>
           </div>
         </div>
       </div>
@@ -99,49 +99,51 @@
     <!-- sezione main -->
     <main>
       <!-- sezione deploy -->
-      <div class="container bl-deploy-container">
-        <div class="deploy-text text-center">
-          <h2>Deploy and scale seamlessly</h2>
-          <p>Our optimized configuration process seves your team time when running and scaling distributed applications, AI &amp; machine learning workloads, hosted services, client websites, or CI/CD environments.</p>
-        </div>
-        <div class="row">
-          <div class="col-xs-12 col-sm-4">
-            <ul class="deploy-list">
-              <li>Deploy</li>
-              <li>Manage</li>
-              <li>Secure</li>
-              <li>Scale</li>
-              <li>Monitor</li>
-            </ul>
+      <div class="bl-deploy-container">
+        <div class="container">
+          <div class="deploy-text text-center">
+            <h2>Deploy and scale seamlessly</h2>
+            <p>Our optimized configuration process seves your team time when running and scaling distributed applications, AI &amp; machine learning workloads, hosted services, client websites, or CI/CD environments.</p>
           </div>
-          <div class="col-xs-12 col-sm-8">
-            <div class="row">
-              <div class="col-xs-12 col-sm-6">
-                <div class="deploy-box">
-                  <img src="img/icon/app-platform.svg" alt="">
-                  <h3>Cluster deployments</h3>
-                  <p>Provision multiple Droplets (virtual machines) in seconds with our control panel, CLI, or directly against our API.</p>
+          <div class="row">
+            <div class="col-xs-12 col-sm-4">
+              <ul class="deploy-list">
+                <li>Deploy</li>
+                <li>Manage</li>
+                <li>Secure</li>
+                <li>Scale</li>
+                <li>Monitor</li>
+              </ul>
+            </div>
+            <div class="col-xs-12 col-sm-8">
+              <div class="row">
+                <div class="col-xs-12 col-sm-6">
+                  <div class="blur-deploy">
+                    <img src="img/icon/app-platform.svg" alt="">
+                    <h3>Cluster deployments</h3>
+                    <p>Provision multiple Droplets (virtual machines) in seconds with our control panel, CLI, or directly against our API.</p>
+                  </div>
                 </div>
-              </div>
-              <div class="col-xs-12 col-sm-6">
-                <div class="deploy-box">
-                  <img src="img/icon/flexible-compute-types.svg" alt="">
-                  <h3>Optimized compute types</h3>
-                  <p>Get the compute resource you need with Standard or Optimized Droplets.</p>
+                <div class="col-xs-12 col-sm-6">
+                  <div class="blur-deploy">
+                    <img src="img/icon/flexible-compute-types.svg" alt="">
+                    <h3>Optimized compute types</h3>
+                    <p>Get the compute resource you need with Standard or Optimized Droplets.</p>
+                  </div>
                 </div>
-              </div>
-              <div class="col-xs-12 col-sm-6">
-                <div class="deploy-box">
-                  <img src="img/icon/click-app-marketplace.svg" alt="">
-                  <h3>One-click apps</h3>
-                  <p>Skip the iinstall and configuration process with pre-built open source images supporting Rails, Cassandra, Docker, and more.</p>
+                <div class="col-xs-12 col-sm-6">
+                  <div class="blur-deploy">
+                    <img src="img/icon/click-app-marketplace.svg" alt="">
+                    <h3>One-click apps</h3>
+                    <p>Skip the iinstall and configuration process with pre-built open source images supporting Rails, Cassandra, Docker, and more.</p>
+                  </div>
                 </div>
-              </div>
-              <div class="col-xs-12 col-sm-6">
-                <div class="deploy-box">
-                  <img src="img/icon/kubernetes-in-minutes.svg" alt="">
-                  <h3>Global availability</h3>
-                  <p>Deploy to any of our data canter regions around the world.</p>
+                <div class="col-xs-12 col-sm-6">
+                  <div class="blur-deploy">
+                    <img src="img/icon/kubernetes-in-minutes.svg" alt="">
+                    <h3>Global availability</h3>
+                    <p>Deploy to any of our data canter regions around the world.</p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -152,13 +154,17 @@
       <!-- sezione designed -->
       <div class="bl-designed-container bg-gray">
         <div class="container">
-          <div class="content-designed text-center">
-            <h2>Designed For developers</h2>
-            <p>Build more and spend less time managing your ingfrastructure with our easy-to-use control panel and API</p>
-            <div class="img-designed after before">
-              <img src="img/droplets.jpg" alt="">
+          <div class="bl-row-designed text-center">
+            <div class="titile-designed">
+              <h2>Designed For developers</h2>
+              <p>Build more and spend less time managing your ingfrastructure with our easy-to-use control panel and API</p>
             </div>
-            <p class="text-img"> Create compute servers in 55 seconds or less.</p>
+            <div class="slider-designed">
+              <i class="bl-angle fas fa-angle-left hidden-xs"></i>
+              <img src="img/droplets.jpg" alt="">
+              <i class="bl-angle fas fa-angle-right hidden-xs"></i>
+              <p> Create compute servers in 55 seconds or less.</p>
+            </div>
             <div class="bl-cirlce-img">
               <div></div>
               <div></div>
@@ -172,10 +178,10 @@
       <!-- sezione features -->
       <div class="bl-features-container">
         <div class="container">
-          <h2>The features your business needs</h2>
+          <h2 class="text-center">The features your business needs</h2>
           <div class="row">
             <div class="col-xs-12 col-sm-4">
-              <div class="box-features">
+              <div class="blur-features">
                 <img src="img/features/predictable-pricing.svg" alt="">
                 <h3>Predictable pricing</h3>
                 <p>Leave complex pricing structures behind. Always know what you'll pay per month with a flat, industry-leading pricing structure.</p>
@@ -183,7 +189,7 @@
               </div>
             </div>
             <div class="col-xs-12 col-sm-4">
-              <div class="box-features">
+              <div class="blur-features">
                 <img src="img/features/world-class-service.svg" alt="">
                 <h3>World-class service</h3>
                 <p>Free round-the-clock technical support for all customers. You'll feel the love.</p>
@@ -191,7 +197,7 @@
               </div>
             </div>
             <div class="col-xs-12 col-sm-4">
-              <div class="box-features">
+              <div class="blur-features">
                 <img src="img/features/reliable-platform.svg" alt="">
                 <h3>Reliable platform</h3>
                 <p>More than 100,000 developer teams woddwide trust DigitalOcean to support their business with a 99.99% uptime SLA for all services.</p>
@@ -282,7 +288,8 @@
       <div class="bl-rockerbox-container bg-gray">
         <div class="container text-center">
             <h2>Development teams love DigitalOcean</h2>
-            <div class="bl-rockerbox-row after before">
+            <div class="bl-rockerbox-row">
+              <i class="bl-angle fas fa-angle-left hidden-xs"></i>
               <div class="bl-rockerbox">
                 <img src="img/rockerbox.png" alt="">
                 <p>"We have been able to make scaling the technical infrastructure of our business cost effective and efficient!' </p>
@@ -290,6 +297,7 @@
                 <h6>Co-founder and CTO</h6>
                 <a href="#">Read story ></a>
               </div>
+              <i class="bl-angle fas fa-angle-right hidden-xs"></i>
             </div>
             <div class="bl-cirlce-img">
               <div></div>
@@ -302,8 +310,8 @@
       <!-- sezione create account -->
       <div class="account-banner">
         <div class="banner-text text-center">
-          <h2>Get started now</h2>
-          <span class="button-account">Create your account</span>
+          <h2 class="color-white">Get started now</h2>
+          <div class="button-account"><a href="#">Create your account</a></div>
         </div>
       </div>
       <!-- fine sezione create account -->
