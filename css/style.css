@@ -482,19 +482,35 @@ footer h4 {
   padding-bottom: 5px;
 }
 
-.shark {
+
+.contenitore-bubble {
   position: fixed;
-  z-index: 999;
-  right: 40px;
-  bottom: 40px;
+  bottom: 15px;
+  right: 15px;;
+  z-index: 9999999;
+}
+
+.box-bubble {
+  display: inline-block;
+}
+
+.box-bubble img {
+  margin-left:10px;
 }
 
 .speech-bubble {
-	position: relative;
-	background: #00aabb;
+  position: relative;
+	background: #fff;
+  padding: 15px;
 	border-radius: .4em;
-  padding: 20px;
-  width: 30%;
+  display: none;
+}
+
+.speech-bubble p {
+  max-width: 300px;
+  color: #031C4E;
+  font-size: 16px;
+  font-weight: 600;
 }
 
 .speech-bubble:after {
@@ -502,13 +518,15 @@ footer h4 {
 	position: absolute;
 	right: 0;
 	top: 50%;
-	width: 0;
-	height: 0;
 	border: 15px solid transparent;
-	border-left-color: #00aabb;
+	border-left-color: #fff;
 	border-right: 0;
-	margin-top: -3px;
-	margin-right: -15px;
+	margin-top: -5px;
+	margin-right: -10px;
+}
+
+.box-bubble:hover .speech-bubble {
+  display: inline-block;
 }
 
 /* fine stili footer --------------------------------------------------------*/
