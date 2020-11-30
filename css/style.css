@@ -50,18 +50,6 @@ ul ,ol {
   cursor: pointer;
 }
 
-.bl-angle{
-  color: #031C4E;
-  font-size: 60px;
-  margin: 0 10px;
-  cursor: pointer;
-}
-
-.bl-angle:hover{
-  color: #6F7B97;
-  cursor: pointer;
-}
-
 /* FINECOMMON STYLE AND UTILITY */
 
 /* stili header -------------------------------------------------------------*/
@@ -149,7 +137,12 @@ nav ul li i{
   width: 100%;
 }
 
-.started-form button {
+.started-form input:focus,
+.started-form button:focus {
+  outline:0;
+}
+
+ .account-button {
   font-size: 13px;
   width: 100%;
   background: #579AFF;
@@ -161,7 +154,9 @@ nav ul li i{
 }
 
 .google-button {
+  width: 100%;
   margin: 5px 0;
+  border: 0;
   border-radius: 3px;
   padding: 5px 0;
   box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.28);
@@ -332,7 +327,7 @@ nav ul li i{
   padding: 10px;
 }
 
-.box-region div {
+.box-region li {
   display: inline-block;
 }
 
@@ -368,21 +363,24 @@ nav ul li i{
   padding-bottom: 60px;
 }
 
-.bl-rockerbox {
+.slider-rockerbox {
+  position: relative;
+  height: 100%;
+}
+
+.slider-inner {
   background: #fff;
-  vertical-align: middle;
-  max-width: 310px;
+  width: 70%;
   margin: 0 auto;
-  display: inline-block;
-  padding: 50px 0;
+  padding: 30px 0;
   border-radius: 5px;
 }
 
-.bl-rockerbox img {
+.slider-inner img {
   width: 100%
 }
 
-.bl-rockerbox p {
+.slider-inner p {
   margin: 20px 0;
   color: #5C6A88;
   font-size: 23px;
@@ -390,17 +388,36 @@ nav ul li i{
   line-height: 1.6;
 }
 
-.bl-rockerbox h5 {
+.slider-inner h5 {
   font-size: 18px;
   font-weight: 600;
+  margin: 0;
 }
 
-.bl-rockerbox h6 {
+.slider-inner h6 {
   font-size: 18px;
+  margin: 3px;
   padding-bottom: 20px;
 }
 
-.bl-rockerbox-container .bl-cirlce-img {
+.slider-arrow:last-child {
+  right: 0;
+}
+
+.slider-arrow{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #031C4E;
+  font-size: 60px;
+  cursor: pointer;
+}
+
+.slider-arrow:hover{
+  color: #6F7B97;
+}
+
+.bl-cirlce-img {
   padding: 20px 0;
 }
 
@@ -447,8 +464,7 @@ footer h6 {
   color: #5C6A88;
 }
 
-.social li {
-  display: inline-block;
+.social i {
   color: #8B94A9;
   font-size: 22px;
   padding-right: 7px;
@@ -507,12 +523,11 @@ footer h4 {
     width: 100px;
   }
 
-  .bl-rockerbox {
-    max-width: 400px;
+  .slider-inner {
+    width: 50%;
   }
-
-  .bl-rockerbox img {
-    width: 310px;
+  .slider-inner img {
+    width: 80%;
   }
 
   .banner-text h2{
@@ -559,9 +574,14 @@ footer h4 {
     width: 600px;
   }
 
-  .bl-rockerbox {
-    max-width: 600px;
+  .slider-inner {
+    width: 70%;
+    padding: 70px 0;
   }
+  .slider-inner img {
+    width: 60%;
+  }
+
 }
 
 /* fine stili sceen MD */
